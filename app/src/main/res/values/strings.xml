@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MontauRu</string>
+    <string-array name="listeMenu1">
+        <item>Aucun</item>
+        <item>Test1</item>
+        <item>Test2</item>
+        <item>Test3</item>>
+    </string-array>
+
+    <string-array name="listeMenu2">
+        <item>Test1</item>
+        <item>Test2</item>
+        <item>Magret de canard</item>
+        <item>Faux filet</item>
+        <item>Risottos aux légumes et parmesan</item>
+        <item>Lasagne à la ratatouille</item>
+    </string-array>
+    <string-array name="entree">
+        <item>Sélectionner une entrée</item>
+        <item>salade</item>
+        <item>thon</item>
+        <item>nouvelle entree</item>
+    </string-array>
+    <string-array name="viandePoisson">
+        <item>Sélectionner une viande/un poisson</item>
+        <item>steak haché</item>
+        <item>poulet curry</item>
+        <item>Faux filet</item>
+        <item>nouveau plat</item>
+    </string-array>
+    <string-array name="accompagnement">
+        <item>Sélectionner un accompagnement</item>
+        <item>riz</item>
+        <item>pate</item>
+        <item>carotte</item>
+        <item>nouveau accompagnement</item>
+    </string-array>
+    <string-array name="dessert">
+        <item>Sélectionner un dessert</item>
+        <item>gateau</item>
+        <item>Yaourt nature</item>
+        <item>donuts</item>
+        <item>nouveau dessert</item>
+
+    </string-array>
+
+</resources>

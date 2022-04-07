@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_imgBouton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/montauru" />
+
+        <Button
+            android:id="@+id/b_seConnecter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/arrondir"
+            android:text="Se connecter" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Créer un menu "
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Entrée"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/s_entree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:entries="@array/entree"
+        android:minHeight="48dp"
+        android:popupBackground="@color/gris" />
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@android:color/darker_gray" />
+
+    <View
+        android:id="@+id/view13"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Plat"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/s_plat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:entries="@array/accompagnement"
+        android:minHeight="48dp"
+        android:popupBackground="@color/gris" />
+
+    <View
+        android:id="@+id/view15"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@android:color/darker_gray" />
+
+    <View
+        android:id="@+id/view16"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Dessert"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/s_dessert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:entries="@array/dessert"
+        android:minHeight="48dp"
+        android:popupBackground="@color/gris" />
+
+    <View
+        android:id="@+id/view17"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tv_nomDuMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Nom du menu"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_creerNomMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Nom de menu"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b_annulerMenu"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Annuler"
+            android:textColor="@color/black"
+            app:backgroundTint="@android:color/holo_red_light" />
+
+        <Button
+            android:id="@+id/b_validerMenu"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Valider"
+            android:textColor="@color/black"
+            app:backgroundTint="@android:color/holo_green_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:gravity="end"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/b_supprimerMenu"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Supprimer"
+            app:backgroundTint="@android:color/holo_orange_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b_accueil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Accueil"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/icons_home"
+            app:iconGravity="textTop"
+            app:iconTint="@color/black" />
+
+        <Button
+            android:id="@+id/b_menus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Menus"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/icons_restaurant"
+            app:iconGravity="textTop"
+            app:iconTint="@color/black" />
+
+        <Button
+            android:id="@+id/b_voter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Voter"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/icons_planner"
+            app:iconGravity="textTop"
+            app:iconTint="@color/black" />
+
+        <Button
+            android:id="@+id/b_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="plus"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/icons_dot"
+            app:iconGravity="textTop"
+            app:iconTint="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_imgBouton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/montauru" />
+
+        <Button
+            android:id="@+id/b_seConnecter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/arrondir"
+            android:text="Se connecter" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Gérer les menus de la semaine"
+        android:textSize="30sp" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/tv_joursSemaine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Lundi"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Spinner
+        android:id="@+id/s_menu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:minHeight="48dp"
+        android:popupBackground="@color/gris"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Spinner
+        android:id="@+id/s_menu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:minHeight="48dp"
+        android:popupBackground="@color/gris"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b_menuPrecedent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="3"
+            android:text="Precedent"
+            app:backgroundTint="@android:color/holo_orange_light"
+            app:icon="@android:drawable/ic_media_previous"
+            app:iconGravity="start" />
+
+        <Button
+            android:id="@+id/b_menuSuivant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="3"
+            android:text="Suivant"
+            app:backgroundTint="@android:color/holo_orange_light"
+            app:icon="@android:drawable/ic_media_next"
+            app:iconGravity="end" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b_annuler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:text="Annuler"
+            app:backgroundTint="@android:color/holo_red_light" />
+
+        <Button
+            android:id="@+id/b_valider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:text="Valider"
+            app:backgroundTint="@android:color/holo_green_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b_accueil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Accueil"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/icons_home"
+            app:iconGravity="textTop"
+            app:iconTint="@color/black" />
+
+        <Button
+            android:id="@+id/b_menus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Menus"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/icons_restaurant"
+            app:iconGravity="textTop"
+            app:iconTint="@color/black" />
+
+        <Button
+            android:id="@+id/b_voter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Voter"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/icons_planner"
+            app:iconGravity="textTop"
+            app:iconTint="@color/black" />
+
+        <Button
+            android:id="@+id/b_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="plus"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/icons_dot"
+            app:iconGravity="textTop"
+            app:iconTint="@color/black" />
+    </LinearLayout>
+</LinearLayout>

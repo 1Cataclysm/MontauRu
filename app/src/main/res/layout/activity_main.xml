@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_imgBouton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_montauru"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="4"
+            app:srcCompat="@drawable/montauru" />
+
+        <Button
+            android:id="@+id/b_seConnecter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:layout_weight="6"
+            android:background="@drawable/arrondir"
+            android:text="Se connecter" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_accueilJour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Date du jour"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Nos menus"
+        android:textSize="20sp" />
+
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:fillColor="#FFFFFFFF"
+        app:pageColor="#00000000"
+        app:radius="6dp"
+        app:slideInterval="3000"
+        app:strokeColor="#FF777777"
+        app:strokeWidth="1dp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Gagnant du mois"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_entree2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/entree" />
+
+        <ImageView
+            android:id="@+id/iv_plat2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/plat" />
+
+        <ImageView
+            android:id="@+id/iv_dessert2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/dessert" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Places disponibles        "
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tv_placesDispo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:gravity="right|center_horizontal"
+            android:text=".."
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:gravity="center_horizontal"
+            android:text="/"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tv_placeMax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:text=".."
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/iv_settings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            app:srcCompat="@drawable/settings" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_places"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b_accueil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Accueil"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/icons_home"
+            app:iconGravity="textTop"
+            app:iconTint="@color/black" />
+
+        <Button
+            android:id="@+id/b_menus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Menus"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/icons_restaurant"
+            app:iconGravity="textTop"
+            app:iconTint="@color/black" />
+
+        <Button
+            android:id="@+id/b_voter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Voter"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/icons_planner"
+            app:iconGravity="textTop"
+            app:iconTint="@color/black" />
+
+        <Button
+            android:id="@+id/b_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="plus"
+            android:textColor="@color/black"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/icons_dot"
+            app:iconGravity="textTop"
+            app:iconTint="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>

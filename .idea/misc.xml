@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ismae/OneDrive/Documents/AndroidSTUDIO_PROJET/m1/app/src/main/res/drawable/arrondir.xml" value="0.3675" />
+        <entry key="..\:/Users/ismae/OneDrive/Documents/AndroidSTUDIO_PROJET/m1/app/src/main/res/drawable/background_color.xml" value="0.331" />
+        <entry key="..\:/Users/ismae/OneDrive/Documents/AndroidSTUDIO_PROJET/m1/app/src/main/res/layout/activity_ajouter_menu.xml" value="0.25" />
+        <entry key="..\:/Users/ismae/OneDrive/Documents/AndroidSTUDIO_PROJET/m1/app/src/main/res/layout/activity_creer_entree.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ismae/OneDrive/Documents/AndroidSTUDIO_PROJET/m1/app/src/main/res/layout/activity_creer_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ismae/OneDrive/Documents/AndroidSTUDIO_PROJET/m1/app/src/main/res/layout/activity_gerer_place.xml" value="0.33" />
+        <entry key="..\:/Users/ismae/OneDrive/Documents/AndroidSTUDIO_PROJET/m1/app/src/main/res/layout/activity_identification_connexion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ismae/OneDrive/Documents/AndroidSTUDIO_PROJET/m1/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/ismae/OneDrive/Documents/AndroidSTUDIO_PROJET/m1/app/src/main/res/layout/activity_menus.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ismae/OneDrive/Documents/AndroidSTUDIO_PROJET/m1/app/src/main/res/layout/activity_popup_dessert.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ismae/OneDrive/Documents/AndroidSTUDIO_PROJET/m1/app/src/main/res/layout/activity_popup_entree.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ismae/OneDrive/Documents/AndroidSTUDIO_PROJET/m1/app/src/main/res/layout/activity_popup_plat.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ismae/OneDrive/Documents/AndroidSTUDIO_PROJET/m1/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ismae/OneDrive/Documents/AndroidSTUDIO_PROJET/m1/app/src/main/res/layout/activity_supprimer_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ismae/OneDrive/Documents/AndroidSTUDIO_PROJET/m1/app/src/main/res/layout/activity_test.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/ismae/OneDrive/Documents/AndroidSTUDIO_PROJET/m1/app/src/main/res/layout/activity_voter.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ismae/OneDrive/Documents/AndroidSTUDIO_PROJET/m1/app/src/main/res/layout/activity_voter_modifier.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/.." />
+    <option name="OPTION_SCOPE" value="private" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="true" />
+    <option name="OPTION_INCLUDE_LIBS" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

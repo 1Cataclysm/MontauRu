@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.montauru">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MontauRu">
+        <activity
+            android:name=".SupprimerMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VoterModifierActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VoterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GererPlaceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IdentificationConnexionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreerEntreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AjouterMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreerMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreerPlatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreerDessertActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenMenusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenAjouterMenusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashModifierMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashIdentificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashInscriptionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashPlaceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashVoterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashModifierMenuVoterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashSupprimerMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
