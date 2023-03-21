@@ -1,14 +1,14 @@
 <?php
 
     function connexionPDO(){
-        $login = "montauru";
-        $mdp = "QQDjhkjq4d54";
+        $login = "*****";
+        $mdp = "*****";
         $bd = "montauru_bd";
-        $serveur = "mysql-montauru.alwaysdata.net"; // adresse ip
+        $serveur = "mysql******.net"; // adresse ip
         /*
-        $login = "root"//"montauru";
-        $mdp = ""//"QQDjhkjq4d54"; //QQDjhkjq4d54
-        $bd = "montauru"//"montauru";
+        $login = "****"
+        $mdp = "****"
+        $bd = "montauru"
         $serveur = "localhost"; // adresse ip
         */
         try {
